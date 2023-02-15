@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FAQ</title>
+</head>
+<body>
+    <div class="accordionDiv">
+        <div class="accordion">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq">
+                <div class="question">
+                    <h3>Can I create a free poll with Outgrow?</h3>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg></div>
+                <div class="answer">
+                    <p>Yes, with Outgrow you can create fun polls for absolutely no cost. Simply sign up for their 7-day free trial and create as many polls as you want. And once you know what features you need, you can buy a plan accordingly.</p>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="question">
+                    <h3>Can I add pictures and videos to my polls?</h3>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg> </div>
+                <div class="answer">
+                    <p>Yes, with Outgrow, you can add media such as images, videos, GIFs, etc. to your polls. It could be on the welcome screen, with the questions as well as with the results. Outgrow also offers integration with Splash which gives access to 1000+ free stock images.</p>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="question">
+                    <h3>Is it possible to add multiple questions to my poll?</h3>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg> </div>
+                <div class="answer">
+                    <p>Yes, with Outgrow, you can add media such as images, videos, GIFs, etc. to your polls. It could be on the welcome screen, with the questions as well as with the results. Outgrow also offers integration with Splash which gives access to 1000+ free stock images.</p>
+                </div>
+            </div>
+            <div class="faq">
+                <div class="question">
+                    <h3>Can users share their online poll results on social media?</h3>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg> </div>
+                <div class="answer">
+                    <p>Yes, with Outgrow, you can add media such as images, videos, GIFs, etc. to your polls. It could be on the welcome screen, with the questions as well as with the results. Outgrow also offers integration with Splash which gives access to 1000+ free stock images.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const faqs = document.querySelectorAll(".faq");
+        
+        faqs.forEach(faq=>{
+            faq.addEventListener("click", () => { 
+                faq.classList.toggle('active')
+            })
+        })
+    </script>
+</body>
+</html>
